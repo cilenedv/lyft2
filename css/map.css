@@ -38,4 +38,8 @@ body{
 }
 .icon{
 	font-size: 55px !important;
+	color: #FF26A4 !important;
+}
+#copiaNombre{
+	padding-right:10px;
 }
