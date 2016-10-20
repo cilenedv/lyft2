@@ -1,0 +1,36 @@
+.num_clave{
+	margin-top:30px;
+	margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    width: 8%;
+    font-size:55px;
+}
+.enter{
+	font-size:50px;
+    margin: 40px;
+}
+.clave{
+	margin-top: 90px;
+}
+.lab{
+	display:inline-block;
+	font-size: 55px;
+}
+#resend{
+	padding: 30px;
+    font-size: 50px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+#next-2{
+	font-size:70px;
+	text-decoration:none;
+	color: white;
+	background-color:#FF26A4;
+	width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+}

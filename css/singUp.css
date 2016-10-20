@@ -1,0 +1,48 @@
+body{
+	position: relative;
+	height:100vh;
+}
+.boton{
+	height:100px;
+	font-size:50px;
+}
+.icon{
+	font-size: 120px;
+    margin-top: 70px;
+	color: black;
+}
+.icon:hover{
+	text-decoration:none;
+	color: black;
+}
+.titulo{
+	font-size: 55px;
+    margin: 65px 0px;
+}
+.linea{
+	border-bottom:2px solid grey;
+}
+.linea-top{
+	margin-top:30px;
+}
+.mensaje{
+	font-size:45px;
+	margin-top:20px;
+}
+.caja{
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+}
+#next{
+	font-size:70px;
+	text-decoration:none;
+	color: white;
+	background-color:#FF26A4;
+	width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+}
+.select{
+	float:left
+}

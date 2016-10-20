@@ -1,0 +1,43 @@
+.user{
+	font-size:50px;
+}
+#name, #lastName , #email{
+	height: 110px;
+    font-size:45px;
+}
+#form{
+	padding-top: 67px;
+	box-sizing: content-box;
+}
+.pd{
+	margin:25px 0px;
+}
+.dt{
+	margin-top:20px;
+}
+.aceptar{
+	margin-top:30px;
+}
+.check{
+	height:40px;
+	width:40px;
+}
+.me{
+	font-size: 35px;
+    padding-left: 27px;
+}
+.aceptar{
+	font-size: 35px;
+    padding-left: 24px;
+}
+#next3{
+	font-size:70px;
+	text-decoration:none;
+	color: white;
+	background-color:#FF26A4;
+	width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+}
+
+

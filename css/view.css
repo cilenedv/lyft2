@@ -1,0 +1,47 @@
+body{
+	position: relative;
+	height:100vh;
+}
+.user{
+	margin: 70px 0px;
+	height: 316px;
+}
+.edit{
+	font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF26A4;
+    width: 100%;
+    display: inline-block;
+    padding: 42px 0px;
+    text-decoration: none;
+}
+#copiaNombre, #copiaApellido{
+	font-size:45px;
+	padding:10px;
+}
+.datos{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.linea{
+	border-bottom: 1px solid grey;
+	padding-bottom: 30px;
+}
+.mt{
+	font-size: 40px;
+    margin: 40px 0px;
+}
+.iconos{
+	padding-right:20px;
+	font-size: 55px; 
+
+}
+.icon{
+	font-size: 120px;
+    margin-top: 70px;
+	color: black;
+}
+.icon:hover{
+	text-decoration: none;
+}
