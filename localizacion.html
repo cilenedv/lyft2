@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/map.css">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/map.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 </head>
 <body>
 <section>
-	<div id="map"></div>
+  <div id="map"></div>
 
-	<ul id="slide-out" class="side-nav desplegable">
+  <ul id="slide-out" class="side-nav desplegable">
     <li><div class="userView center-align">
       <a href="#!user" class="center-align"><img class="cir_user" src="img/user.png"></a>
       <span id="copiaNombre" class="black-text center-align num_user"></span>
@@ -33,6 +34,7 @@
 
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons menu"><img class="user" src="img/user.png"></i></a>
+  <input id="ubicacion" type="text">
   </section>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADueju6bbVD2q1HQGwIIrfy1j_WYtdLXo"
