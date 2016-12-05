@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>mapa</title>
   <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/map.css">
@@ -14,7 +14,7 @@
 
   <ul id="slide-out" class="side-nav desplegable">
     <li><div class="userView center-align">
-      <a href="#!user" class="center-align"><img class="cir_user" src="img/user.png"></a>
+      <a href="#!user" class="center-align"><img  class="cir_user usuario_icono" src="img/user.png"></a>
       <span id="copiaNombre" class="black-text center-align num_user"></span>
       <span id="copiaApellido" class="black-text center-align num_user">  </span>
       <a href="view.html"><span class="black-text name center-align view ">View profile</span></a>
@@ -33,16 +33,23 @@
     <li><a href="#!" class="pd"><i class="material-icons icon">settings</i>Setting</a></li>
 
   </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons menu"><img class="user" src="img/user.png"></i></a>
-  <input id="ubicacion" type="text">
-  </section>
-
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons menu"><img class="user usuario_icono_map" src="img/user.png"></i></a>
+</section>
+<section class="direccion">
+  <input type="text" name="direccion" placeholder="direccion" id="direccion">
+  <button type="button" class="button-map" id="destino">Set pickup</button>
+  <div class="fondo-opaco none " id="show-destiny">
+    <input type="text" id="destiny" class="direction" placeholder="Destination">
+    <button type="button" class="button-map" id="go-to">Confirm pickup</button>
+  </div>
+</section>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADueju6bbVD2q1HQGwIIrfy1j_WYtdLXo"
    async defer></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/gmaps.js"></script>
 <script type="text/javascript" src="js/maps.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
 <script type="text/javascript" src="materialize/js/materialize.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>

@@ -30,21 +30,52 @@ body{
 	font-size: 30px;
 }
 .cir_user{
-	margin-top: 30px;
+	margin-top: 4px;
 	width: 50%;
 }
 .desplegable{
 	width: 70%;
 }
 .pd{
-	font-size:25px !important;
+	font-size:18px !important;
    /* height: 120px !important;
     padding: 40px 30px !important;*/
 }
 .icon{
-	font-size: 35px !important;
+	font-size: 30px !important;
 	color: #FF26A4 !important;
 }
 #copiaNombre{
 	padding-right:10px;
+	color: black;
+}
+
+.direccion{
+  position: absolute;
+  bottom: 0px;
+  width: 80%;
+  left: 16%;
+}
+#direccion{
+  background-color: #C61167;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+}
+#destino{
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 3%;
+  border-radius: 14px;
+}
+.none {
+  display: none;
+}
+@media only screen and (max-width : 375px) {
+  .direccion{
+    width: 88% !important;
+    left: 6% !important;
+  }
+  
+  
 }

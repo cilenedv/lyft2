@@ -45,3 +45,23 @@ body{
 .icon:hover{
 	text-decoration: none;
 }
+
+#botonera{
+	margin-top: 3%;
+  position: absolute;
+  margin-left: 19%;
+}
+#archivo{
+	font-size: 3.5rem;
+    margin-top: -119px;
+}
+#cancelar{
+	font-size: 3.5rem;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 375px){
+  #archivo{
+  	margin: 13% 0 0 0;
+  }
+  
+}
